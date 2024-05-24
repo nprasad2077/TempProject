@@ -15,6 +15,10 @@ function HomeScreen({navigation}) {
         title="Go to TestScreen"
         onPress={() => navigation.navigate('TestScreen')}
       />
+      <Button
+        title="Go to MapScreen"
+        onPress={() => navigation.navigate('MapScreen')}
+      />
     </View>
   );
 }

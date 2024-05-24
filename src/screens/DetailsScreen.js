@@ -8,7 +8,7 @@ function DetailsScreen({navigation}) {
   return (
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <Text style={tw`text-4xl font-bold text-center px-4`}>
-        React Native
+        Hi Priya
       </Text>
       <Text style={tw`text-sm text-slate-300 font-bold text-center px-4 my-2`}>
         Android is Better

@@ -10,6 +10,8 @@ import DetailsScreen from '../screens/DetailsScreen';
 
 import TestScreen from '../screens/TestScreen';
 
+import MapScreen from '../screens/MapScreen';
+
 const Stack = createStackNavigator();
 
 export default function Navigation() {
@@ -20,6 +22,7 @@ export default function Navigation() {
 
         <Stack.Screen name="Details" component={DetailsScreen} />
         <Stack.Screen name="TestScreen" component={TestScreen} />
+        <Stack.Screen name='MapScreen' component={MapScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
